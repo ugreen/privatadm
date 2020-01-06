@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
+const sass = require('./config/sass-process');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
@@ -13,7 +14,7 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    return DateTime.fromJSDate(dateObj).toFormat("dd-MM-yyyy");
   });
 
   // Minify CSS
@@ -72,6 +73,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
+
+  sass('./src/sass/main.scss', './_includes/assets/css/main.css');
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],

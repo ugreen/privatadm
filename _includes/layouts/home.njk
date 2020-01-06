@@ -2,5 +2,8 @@
 layout: layouts/base.njk
 section: home
 ---
-
+{% include "components/banner.njk" %}
+<article id="main">
+    {% include "components/columns.njk" %}
 {{ layoutContent | safe }}
+</article>

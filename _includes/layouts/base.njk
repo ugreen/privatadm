@@ -1,23 +1,25 @@
 <!doctype html>
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-
 	{% include "components/head.njk" %}
-
-	<body>
-
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
-
-		<main>
-			{{ layoutContent | safe }}
-		</main>
-
-		{% include "components/footer.njk" %}
-
+	<body class="index">
+	    <div class="page-wrapper">
+            <header id="header" class="alt">
+                <h1 id="logo">
+                    <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+                </h1>
+                {% include "components/nav.njk" %}
+            </header>
+            {{ layoutContent | safe }}
+            {% include "components/footer.njk" %}
+        </div>
+        <script src="/_includes/assets/js/jquery.min.js"></script>
+        <script src="/_includes/assets/js/jquery.dropotron.min.js"></script>
+        <script src="/_includes/assets/js/jquery.scrolly.min.js"></script>
+        <script src="/_includes/assets/js/jquery.scrollgress.min.js"></script>
+        <script src="/_includes/assets/js/jquery.scrollex.min.js"></script>
+        <script src="/_includes/assets/js/browser.min.js"></script>
+        <script src="/_includes/assets/js/breakpoints.min.js"></script>
+        <script src="/_includes/assets/js/util.js"></script>
+        <script src="/_includes/assets/js/main.js"></script>
 	</body>
-
 </html>

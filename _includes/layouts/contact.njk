@@ -2,8 +2,10 @@
 layout: layouts/base.njk
 section: contact
 ---
-<h1>{{ title }}</h1>
-
-{{ layoutContent | safe }}
-
-{% include "components/form.njk" %}
+<article id="main">
+    <header class="special container">
+        <span class="icon solid fa-envelope"></span>
+        {{ layoutContent | safe }}
+    </header>
+    {% include "components/form.njk" %}
+</article>
