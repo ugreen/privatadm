@@ -74,7 +74,7 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, opts)
   );
 
-  sass('./src/sass/main.scss', './_includes/assets/css/main.css');
+  //sass('./src/sass/main.scss', './_includes/assets/css/main.css');
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
