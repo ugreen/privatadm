@@ -5,20 +5,73 @@
     <form name="contact" method="POST" netlify>
       <div class="row gtr-50">
         <div class="col-6 col-12-mobile">
-          <label for="name">Navn</label>
-          <input type="text" name="name" id="name" autocomplete="name" placeholder="Dit navn" title="Skriv venligst dit navn" required>
+          <label for="child-name">Barnets navn</label>
+          <input type="text" name="child-name" id="child-name" placeholder="Barnets navn" title="Skriv venligst dit barns navn" required>
         </div>
         <div class="col-6 col-12-mobile">
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" autocomplete="email" placeholder="Skriv venligst din E-mail" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+          <label for="child-birthday">Barnets fødselsdag</label>
+          <input type="text" name="child-birthday" id="child-birthday" placeholder="Barnets fødselsdag" title="Skriv venligst dit barns fødselsdag" required>
+        </div>
+        <div class="col-6 col-12-mobile">
+          <label for="mother-email">Mor E-mail</label>
+          <input type="email" name="mother-email" id="mother-email" placeholder="Skriv venligst mors E-mail" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+        </div>
+        <div class="col-6 col-12-mobile">
+          <label for="mother-phone">Mor telefon</label>
+          <input type="text" name="mother-phone" id="mother-phone" placeholder="Mor telefon" title="Skriv venligst mors telefonnummer" required>
+        </div>
+        <div class="col-6 col-12-mobile">
+          <label for="father-email">Far E-mail</label>
+          <input type="email" name="father-email" id="father-email" placeholder="Skriv venligst fars E-mail" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+        </div>
+        <div class="col-6 col-12-mobile">
+          <label for="father-phone">Far telefon</label>
+          <input type="text" name="father-phone" id="father-phone" placeholder="Far telefon" title="Skriv venligst fars telefonnummer" required>
         </div>
         <div class="col-12">
-          <label for="phone">Telefon</label>
-          <input type="text" name="phone" id="phone" placeholder="Telefon" />
+          <label for="address">Adresse</label>
+          <input type="text" name="address" id="address" placeholder="Adresse" />
+        </div>
+        <div class="col-4 col-12-mobile">
+          <label for="zip">Postnummer</label>
+          <input type="text" name="zip" id="zip" placeholder="Postnummer" />
+        </div>
+        <div class="col-8 col-12-mobile">
+          <label for="city">By</label>
+          <input type="text" name="city" id="city" placeholder="By" />
         </div>
         <div class="col-12">
-          <label for="message">Besked</label>
-          <textarea name="message" id="message" placeholder="Skriv din besked her" rows="7" required></textarea>
+          <label for="contact">Kontaktperson (mor eller far)</label>
+          <input type="text" name="contact" id="contact" placeholder="Kontaktperson" />
+        </div>
+        <div class="col-12">
+          <label for="institution">Institutionens navn og by </label>
+          <input type="text" name="institution" id="institution" placeholder="Institutionens navn og by" />
+        </div>
+        <div class="col-12">
+          <label for="institution">Behovsdato</label>
+          <input type="date" name="need-date" id="need-date" placeholder="Behovsdato" />
+        </div>
+        <div class="col-12">
+          <label for="siblings">Søskende i instidutionen (navne)</label>
+          <input type="text" name="siblings" id="siblings" placeholder="Søskende i instidutionen" />
+        </div>
+        <div class="col-12">
+          <label for="message">Evt. besked til os</label>
+          <textarea name="message" id="message" placeholder="Evt. besked til os" rows="7" required></textarea>
+        </div>
+        <div class="col-12">
+          <p><strong>Samtykkeerklæring</strong></p>
+          <label for="content-accuire">
+            <input type="checkbox" name="content-accuire" id="content-accuire" required />
+            Ovenstående giver hermed samtykke til behandling af de personoplysninger, der er angivet overfor. Samtykket gives til behandlingen. Formålet med behandlingen af de afgivne personoplysninger er, at opskrive jeres barn på en af vores kunders interne venteliste for institutionspladser, således at I vil kunne kontaktes, såfremt at der er ledige pladser. Der gives ligeledes samtykke til, at ovenstående oplysninger videregives til institutionen, som barnet opskrives I.
+          </label>
+        </div>
+        <div class="col-12">
+          <label for="content-store">
+            <input type="checkbox" name="content-store" id="content-store" required />
+            Oplysningerne opbevares så længe barnet er skrevet på venteliste hos en af den private administrations samarbejdspartnere (der indhentes skriftlig accept på dette hver 3. måned).
+          </label>
         </div>
         <div class="col-12">
           <ul class="buttons">

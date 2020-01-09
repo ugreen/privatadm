@@ -90,13 +90,6 @@ $pattern-background-size: 25em;
 		padding: 0;
 	}
 
-	input, select, textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-	}
-
 /* Basic */
 
 	// Set box model to border-box.
@@ -241,13 +234,6 @@ $pattern-background-size: 25em;
 			}
 		}
 
-		@include breakpoint('<=mobile') {
-			width: 100%;
-
-			&.medium {
-				width: 100%;
-			}
-		}
 	}
 
 /* Row */
@@ -356,6 +342,7 @@ $pattern-background-size: 25em;
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+    input[type="date"],
 	textarea {
 		@include vendor('transition', ('background-color 0.2s ease-in-out', 'border-color 0.2s ease-in-out'));
 		@include vendor('appearance', 'none');
@@ -374,8 +361,10 @@ $pattern-background-size: 25em;
 		}
 	}
 
+
 	input[type="text"],
 	input[type="password"],
+    input[type="date"],
 	input[type="email"] {
 		line-height: 1em;
 	}
@@ -533,6 +522,10 @@ $pattern-background-size: 25em;
 			&:before {
 				font-size: 5em;
 				line-height: 1em;
+              @include breakpoint('<=narrower') {
+                font-size: 3em;
+                line-height: 1em;
+              }
 			}
 		}
 

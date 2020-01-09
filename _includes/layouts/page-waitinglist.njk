@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+section: page
+---
+<article id="main">
+    <section class="container">
+        {{ layoutContent | safe }}
+        {% include "components/form-venteliste.njk" %}
+    </section>
+</article>

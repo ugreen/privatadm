@@ -1,8 +1,8 @@
 ---
+layout: layouts/page-waitinglist.njk
 title: Venteliste Administration 
 permalink: /venteliste/index.html
 navtitle: Venteliste Administration
-
 ---
 ## Venteliste Administration
 Den Private Administrations kerneydelse er at varetage al administration, der er forbundet med ventelisten i de private dagtilbud, herunder mail og telefonopkald vedr. ventelisten.
