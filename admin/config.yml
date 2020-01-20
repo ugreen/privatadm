@@ -28,6 +28,7 @@ collections:
         file: "pages/home.md"
         slug: "{{slug}}"
         fields:
+        - { label: "Layout", name: "layout", widget: "string" }
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Permalink", name: "permalink", widget: "string" }
