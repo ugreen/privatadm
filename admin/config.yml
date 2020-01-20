@@ -34,6 +34,9 @@ collections:
         - { label: "Navigation Title", name: "navtitle", widget: "string" }
         - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
         - { label: "Banner tekst", name: "bannertext", widget: "text" }
-        - { label: "Venteliste tekst", name: "waitinglist-text", widget: "text" }
-        - { label: "Rekritterings tekst", name: "recruitment-text", widget: "text" }
-        - { label: "Assistance tekst", name: "assistance-text", widget: "text" }
+        - { label: "Box 1 titel", name: "box1title", widget: "string" }
+        - { label: "Box 1 tekst", name: "box1text", widget: "text" }
+        - { label: "Box 2 titel", name: "box2title", widget: "string" }
+        - { label: "Box 2 tekst", name: "box2text", widget: "text" }
+        - { label: "Box 3 titel", name: "box3title", widget: "string" }
+        - { label: "Box 3 tekst", name: "box3text", widget: "text" }
