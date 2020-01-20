@@ -10,7 +10,7 @@ bannertext: >-
   Vi ønsker at være en professionel samarbejdspartner der er kendetegnet ved et
   højt serviceniveauniveau og fleksibilitet som tilbyder produkter af høj
   kvalitet
-box1title: Venteliste Administration.
+box1title: Venteliste Administration
 box1text: >-
   Vi ønsker at løfte de administrative opgaver knyttet til ventelisten ud af
   huset og dermed skabe ro og frigive tid til pædagogisk arbejde.
