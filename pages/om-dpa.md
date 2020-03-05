@@ -1,14 +1,18 @@
 ---
 title: Om DPA
+date: 2020-03-05T12:11:48.919Z
 permalink: /om-dpa/index.html
 navtitle: Om DPA
 tags:
   - nav
 ---
 ## Om Den Private Administration
-Tanken bag Den Private Administration var indledningsvis at frigive tid fra de administrative opgaver der er forbundet med venteliste håndtering i landets private dagtilbud til det pædagogiske arbejde.
 
-Vi har efterfølgende udvidet vores services til også at omhandle sparring i hele eller dele af rekrutteringsprocessen, samt rekrutteringskurser/”gå hjem møder” der med en praktisk tilgang klæder personalet på til rekrutteringsprocessen fra A-Z.
+Tanken bag Den Private Administration er, at videregive mangeårig rekrutteringserfaring fra såvel private som offentlige virksomheder til udvalgte brancher. 
+
+Vi tilbyder rekrutteringskurser/"gå hjem møder", der med en praktisk tilgang klæder personalet, der sidder med ved rekrutteringer på til rekrutteringsprocessen fra A-Z.
+
+Vi tilbyder ligeledes smidig, professionel og skræddersyet sparring/håndtering af hele eller dele af rekrutteringsprocessen.  
 
 Fællesnævneren for vores services er professionelle løsninger der har til formål at lette hverdagen administrativt, samt løsninger der opkvalificerer personalet inden for tiltrækning af kandidater og ansættelse.
 
