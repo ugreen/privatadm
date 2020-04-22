@@ -4,7 +4,7 @@ date: 2020-03-05T12:22:40.046Z
 permalink: /venteliste/index.html
 navtitle: Venteliste Administration
 ---
-## Venteliste Administration
+## Venteliste Administration til private dagtilbud
 
 Den Private Administrations tilbyder at varetage al administration, der er forbundet med ventelisten i de private dagtilbud, herunder mail og telefonopkald vedr. ventelisten.
 
