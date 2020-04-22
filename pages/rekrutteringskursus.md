@@ -10,4 +10,4 @@ Formålet med kurset er hjælpe Jer med at tiltrække og ansætte de rigtige per
 
 I undervises/coaches i rekrutteringsprocessen fra A-Z, vi vil både tale om tiltrækning i et marked der er ”vendt på hovedet”, tips til screening af ansøgerfelt, lave en samtale drejebog der er tilpasset Jeres behov og ønsker til fremtidige kollegaer og sidst men ikke mindst skal vi lave praktiske øvelser og rollespil, så I får prøvet tingene af i praksis.  I kan forvente nogle timer med masser viden, best practice, sparring og grin, hvor I får input til styring af hele rekrutteringsprocessen fra jobopslag til afslag. 
 
-kørsels tillæg pålægges for Fyn og Jylland
+Kørsels tillæg pålægges for Fyn og Jylland
